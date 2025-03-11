@@ -11,3 +11,8 @@ The bureau gives you 13 days of vacation if an operation is successful, if unsuc
 Hint: Remember, `try` runs until there is an error, `catch` runs when there is an error, and `finally` runs always after both `try` and `catch` finished.
 
 - Resource: detective.js.zip
+
+# Jenna's Notes:
+
+- To run the project, run `node .\detective.js` when in the detective.js folder.
+- For debugging, in VSCode > Run > Start Debugging -> will create launch.json in hidden folder called ".vscode". You will need to add a breakpoint, e.g. on mysteriousOperation function call in the try catch - to walk through the logic.
